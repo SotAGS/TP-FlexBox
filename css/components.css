@@ -1,0 +1,36 @@
+.noticia-principal, .noticia-secundaria, .noticia-breve {
+  background-color: var(--secondary);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.noticia-principal img {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 75%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.texto-noticia {
+  text-align: center;        /* Centra el texto dentro del div */
+}
+
+.noticia-principal h2, .noticia-secundaria h3, .noticia-breve h3 {
+  color: var(--primary);
+}

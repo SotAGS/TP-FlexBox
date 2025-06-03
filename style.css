@@ -1,0 +1,82 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 100px;
+    margin: auto;
+}
+
+/* Título y subtítulo */
+.TP-FLEXBOX {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.TP-FLEXBOX h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #00ffcc;
+}
+
+.TP-FLEXBOX p {
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+/* Sección del artículo con imagen */
+article section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+article img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px #00ffcc;
+}
+
+article p {
+    color: #aaa;
+    font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .TP-FLEXBOX h1 {
+        font-size: 1.5rem;
+    }
+
+    .TP-FLEXBOX p, article p {
+        font-size: 1rem;
+    }
+}
